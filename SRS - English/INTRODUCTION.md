@@ -1,1 +1,1 @@
-This document will explain and analyze the requirements of the "Classifier of learning types" project, developed by a universitary student.
+This document explains and analyzes the requirements of the project "LTC" (Learning Types Classifier), developed by a university student of Software Engineering Career.
