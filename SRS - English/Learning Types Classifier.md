@@ -1,30 +1,3 @@
-# Table of Contents
-- [Introduction](#Introduction)
-  - [Purpose](#Purpose)
-  - [Scope](#Scope)
-  - [Definitions, acronymus, and abbreviations](#Definitions,-acronymus,-and-abbreviations)
-  - [References](#References)
-  - [Overview](#Overview)
-- [Overall Description](#Overall-Description)
-  - [Product Perspective](#Product-Perspective)
-    - [System Interfaces](#System-Interfaces)
-    - [User Interfaces](#User-Interfaces)
-  - [Product Functions](#Product-Functions)
-  - [User Characteristics](#User-Characteristics)
-  - [Contraints](#Constraints)
-  - [Assumptions and dependencies](#Assumptions-and-dependencies)
-- [Specific requirements](#Specific-requirements)
-  - [External Interfaces](#External-Interfaces)
-  - [Functions](#Functions)
-  - [Performance requirements](#Performance-requirements)
-  - [Logical database requirements](#Logical-database-requirements)
-  - [Design constraints](#Design-constraints)
-  - [Software system attributes](#Software-system-attributes)
-  - [Organizing the specific requirements](#Organizing-the-specific-requirements)
-  - [Additional comments](#Additional-comments)
-- [Supporting Information](#Supporting-Information)
-  - [Table of contents and index](#Table-of-contents-and-index)
-  - [Appendixes](#Appendixes)
 
 # Introduction
 
@@ -52,8 +25,14 @@ This document explains and analyzes the requirements and processes of the projec
   
   - SRS: Software Requirements Specification.
   
+  - Database: Organized collection of data.
   
   ## References
+  
+  https://en.wikipedia.org/wiki/Software_requirements_specification
+  
+  https://www.techopedia.com/definition/1185/database-db
+  
   ## Overview
   
   The SRS document for the LTC project is divided into the following sections:
@@ -123,13 +102,10 @@ The LTC will have two more users, who will interact with the main users in the c
   
   
 # Specific requirements
-  ## External Interfaces
-  ## Functions
-  ## Performance requirements
-  ## Logical database requirements
-  ## Design constraints
-  ## Software system attributes
- ## Organizing the specific requirements
+  ## Functional requirements
+  ## External interface requirements
+  ## System features
+  ## Non functional requirements
  ## Additional comments
 # Supporting Information
 
@@ -149,13 +125,10 @@ The LTC will have two more users, who will interact with the main users in the c
   - [Contraints](#Constraints)
   - [Assumptions and dependencies](#Assumptions-and-dependencies)
 - [Specific requirements](#Specific-requirements)
-  - [External Interfaces](#External-Interfaces)
-  - [Functions](#Functions)
-  - [Performance requirements](#Performance-requirements)
-  - [Logical database requirements](#Logical-database-requirements)
-  - [Design constraints](#Design-constraints)
-  - [Software system attributes](#Software-system-attributes)
-  - [Organizing the specific requirements](#Organizing-the-specific-requirements)
+  - [Functional Requirements](#Functional-Requirements)
+  - [External interface requirements](#External-interface-requirements)
+  - [System features](#System-features)
+  - [Non functional requirements](#Non-functional-requirements)
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
   - [Table of contents and index](#Table-of-contents-and-index)
