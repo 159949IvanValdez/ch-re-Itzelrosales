@@ -69,7 +69,7 @@ This document explains and analyzes the requirements and processes of the projec
   ## References
   ## Overview
   
-  The SRS document for the TLC project is divided into the following sections:
+  The SRS document for the LTC project is divided into the following sections:
   
   • The introduction section that focuses on the explanation, objectives and description of the document.
   
@@ -87,7 +87,7 @@ In this section we identify the factors that affect the product and its requirem
 
   ## Product Perspective
   
-  The TLC system is made up of different functions, among them a classifier that will give a result depending on the descriptive data (name, age, preferences (answers to previously asked questions)) that the user enters in it.
+  The LTC system is made up of different functions, among them a classifier that will give a result depending on the descriptive data (name, age, preferences (answers to previously asked questions)) that the user enters in it.
 
 This software will also allow the management of student information, in this case the learning profiles, advice and study techniques suitable for this, for which it will need to communicate with a database to which would only have access the director of the institution or the teacher.
 
@@ -111,18 +111,18 @@ This software will also allow the management of student information, in this cas
   The system will have three types of user: Academic, Administrative and External.
   Of these three types, users are divided into final and potential according to the use they give the system.
   
-  The system will have two final users, who will interact with TLC directly.
+  The system will have two final users, who will interact with LTC directly.
   
   | Users| Description|
 | ------------- |:-------------:| 
 | Student| Is the one who will introduce his data, answers about his preferences and interests and will obtain the appropriate result for him.|
 | Teacher| Will have access to the system to analyze the results of each student and thus channel it to activities that favor their learning.| 
 
-The TLC will have two more users, who will interact with the main users in the classification process and with the system only if necessary.
+The LTC will have two more users, who will interact with the main users in the classification process and with the system only if necessary.
 
 | Users| Description|
 | ------------- |:-------------:| 
-| Parent or Guardian| Access the TLC to enter data if the student cannot or knows how to operate the system.|
+| Parent or Guardian| Access the LTC to enter data if the student cannot or knows how to operate the system.|
 | School Principal| Will have access to the system to analyze the information together with the teacher, in case there is a need to channel students to some kind of special help. Will also receive the results of the system in the school database.| 
   
   ## Constraints
