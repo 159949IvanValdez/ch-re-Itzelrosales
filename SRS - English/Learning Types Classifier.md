@@ -9,26 +9,9 @@
   - [Product Perspective](#Product-Perspective)
     - [System Interfaces](#System-Interfaces)
     - [User Interfaces](#User-Interfaces)
-    - [Hardware Interfaces](#Hardware-Interfaces)
-    - [Software Interfaces](#Software-Interfaces)
-    - [Communications Interfaces](#Communications-Interfaces)
-    - [Memory](#Memory)
-    - [Operations](#Operations)
-    - [Site adaptations requirements](#Site-adaptations-requirements)
   - [Product Functions](#Product-Functions)
   - [User Characteristics](#User-Characteristics)
   - [Contraints](#Constraints)
-    - [Regulatory policies](#Regulatory-policies)
-    - [Hardware limitations](#Hardware-limitations)
-    - [Interfaces to other applications](#Interfaces-to-other-applications)
-    - [Parallel operation](#Parallel-operation)
-    - [Audit functions](#Audit-functions)
-    - [Control functions](#Control-functions)
-    - [Higher-order language requirements](#Higher-order-language-requirements)
-    - [Signal handshake protocols](#Signal-handshake-protocols)
-    - [Reliability requirements](#Reliability-requirements)
-    - [Criticality of the application](#Criticality-of-the-application)
-    - [Safety and security considerations](#Safety-and-security-considerations)
   - [Assumptions and dependencies](#Assumptions-and-dependencies)
 - [Specific requirements](#Specific-requirements)
   - [External Interfaces](#External-Interfaces)
@@ -78,9 +61,9 @@ This document explains and analyzes the requirements and processes of the projec
  
   ## Definitions, acronymus, and abbreviations
     
-  -LTC: Learning Types Classifier.
+  - LTC: Learning Types Classifier.
   
-  -SRS: Software Requirements Specification.
+  - SRS: Software Requirements Specification.
   
   
   ## References
@@ -88,40 +71,70 @@ This document explains and analyzes the requirements and processes of the projec
   
   The SRS document for the TLC project is divided into the following sections:
   
-  •The introduction section that focuses on the explanation, objectives and description of the document.
+  • The introduction section that focuses on the explanation, objectives and description of the document.
   
-  •The general description section oriented to the general description of the system, where the information is directed to the client or potential user.
+  • The overall description section oriented to the general description of the system, where the information is directed to the client or potential user.
   
-  •The specific requirements section that talks about the specific requirements. This includes technical terms directed principally to the developers and programmers of the project.
+  • The specific requirements section that talks about the specific requirements. This includes technical terms directed principally to the developers and programmers of the project.
   
-  •The support information section contains the appendices and links of information related to the topic for general interest.
+  • The support information section contains the appendices and links of information related to the topic for general interest.
 
   
 # Overall Description
+
+In this section we identify the factors that affect the product and its requirements, as well as the context of the development of the system. These can be related to the development time by phases, costs and customer involvement.
+
+
   ## Product Perspective
+  
+  The TLC system is made up of different functions, among them a classifier that will give a result depending on the descriptive data (name, age, preferences (answers to previously asked questions)) that the user enters in it.
+
+This software will also allow the management of student information, in this case the learning profiles, advice and study techniques suitable for this, for which it will need to communicate with a database to which would only have access the director of the institution or the teacher.
+
+
    ### System Interfaces
    ### User Interfaces
-   ### Hardware Interfaces
-   ### Software Interfaces
-   ### Communications Interfaces
-   ### Memory
-   ### Operations
-   ### Site adaptations requirements
+   
   ## Product Functions
+  
+  • Classification of learning styles based on user preferences.
+  
+  • Creation of descriptive profiles of each user.
+  
+  • Storage of information in an external database. (Can be the institutional database).
+  
+  • Provide information about the learning styles according to the user's when obtaining a result of the classifier.
+
+  
   ## User Characteristics
+  
+  The system will have three types of user: Academic, Administrative and External.
+  Of these three types, users are divided into final and potential according to the use they give the system.
+  
+  The system will have two final users, who will interact with TLC directly.
+  
+  | Users| Description|
+| ------------- |:-------------:| 
+| Student| Is the one who will introduce his data, answers about his preferences and interests and will obtain the appropriate result for him.|
+| Teacher| Will have access to the system to analyze the results of each student and thus channel it to activities that favor their learning.| 
+
+The TLC will have two more users, who will interact with the main users in the classification process and with the system only if necessary.
+
+| Users| Description|
+| ------------- |:-------------:| 
+| Parent or Guardian| Access the TLC to enter data if the student cannot or knows how to operate the system.|
+| School Principal| Will have access to the system to analyze the information together with the teacher, in case there is a need to channel students to some kind of special help. Will also receive the results of the system in the school database.| 
+  
   ## Constraints
-   ### Regulatory policies
-   ### Hardware limitations
-   ### Interfaces to other applications
-   ### Parallel operation
-   ### Audit functions
-   ### Control functions
-   ### Higher-order language requirements
-   ### Signal handshake protocols
-   ### Reliability requirements
-   ### Criticality of the application
-   ### Safety and security considerations
+  
+  - Data exchange protocols must be used via the internet during the storage process in the database.
+  
+  - Regarding security, the use of the system by sessions should be considered to limit access to main users only.
+
+
   ## Assumptions and dependencies
+  
+  
 # Specific requirements
   ## External Interfaces
   ## Functions
