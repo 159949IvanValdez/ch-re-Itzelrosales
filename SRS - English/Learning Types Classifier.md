@@ -74,7 +74,7 @@ This software will also allow the management of student information, in this cas
   
   ## User Characteristics
   
-  The system will have three types of user: Academic, Administrative and External.
+  The system will have three types of user: Academic (Students), Administrative(Teachers and School Principal) and External (Parents or Guardians).
   Of these three types, users are divided into final and potential according to the use they give the system.
   
   The system will have two final users, who will interact with LTC directly.
@@ -100,11 +100,112 @@ The LTC will have two more users, who will interact with the main users in the c
 
   ## Assumptions and dependencies
   
+  | Assumptions| Dependencies|
+| ------------- |:-------------:| 
+| The LTC system will be a desktop program.| For LTC to work properly, it is required to have mainly Internet connection.|
+| It can be used by different users at the same time but only by sessions.| The teacher and the school principal have knowledge to handle certain types of software.| 
   
 # Specific requirements
-  ## Functional requirements
+  
+  In this section, each of the requirements and specifications of the LTC system are described in more detail.
+  
   ## External interface requirements
-  ## System features
+  
+  - The graphical interface with which the end user interacts must be intuitive, such that without a user manual, any type of user can identify and use the system functions.
+  
+  - It should have two themes (light and dark) with nice colors in sight so that the user can work with the system comfortably.
+  
+ **Welcome Message**
+  
+  - In the graphical user interface, there will be a welcome message for the purpose of the system.
+
+  - The message window will have a size of 650 x 487 pixels and will be of contrasting color to the background.
+
+  - This window can be edited by the direct system administrator (teacher or school principal) and it will be possible to add         images png, jpg and gif.
+  
+  **Menu**
+
+   - The menu will be displayed on the left side when closing the window with the welcome message and according to the type of user (academic, administrative or external) the elements will be the following: 
+
+     **Academic user:** 
+      
+      • Start
+      
+      • Log in
+      
+      • Take test
+      
+      • Results Consultation
+      
+      • Sign off
+
+
+      **Administrative user:** 
+       
+       • Start
+       
+       • Log in
+       
+       • Search for
+       
+       • Student Consultation
+       
+       • Group Consultation
+       
+       • Ups and downs of academic and external users
+       
+       • Report generator
+       
+       • Sign off
+
+
+      **External users:** 
+       
+       • Start
+       
+       • Log in
+       
+       • Results Consultation
+       
+       • Sign off
+
+  **Log in**
+
+   - The user must enter a username and password previously registered by an administrative user.
+
+   - The password must have no less than 8 characters and include uppercase, lowercase and numbers. No symbols or other character.
+
+   - The username will be formed by the initials of the names of the person, followed by the first surname and the last two digits of the year of birth.
+
+    Example: Erika Itzel Rosales Lopez, 1999.        Username: eirosales99
+  
+  ## Functional requirements
+  
+   In this section, the functional requirements must be classified depending on the type of user that the system has, because each profile will have different functions within the LTC system.
+   
+   **Academic user:** 
+      
+  Start and end of session.
+  User and password authentication.
+  Password restoration.
+  Test realization.
+  Results consultation.
+
+   **Administrative user:** 
+       
+  Start and end of session.
+  User and password authentication.
+  Password restoration.
+  A search engine to filter system information.
+  Students and groups consultation (profiles and statistics).
+  Results consultation.
+  Make changes in the system (welcome message, student channeling, users names, etc.).
+  Generate reports.
+
+   **External users:** 
+  
+  
+  
   ## Non functional requirements
  ## Additional comments
 # Supporting Information
@@ -127,7 +228,6 @@ The LTC will have two more users, who will interact with the main users in the c
 - [Specific requirements](#Specific-requirements)
   - [Functional Requirements](#Functional-Requirements)
   - [External interface requirements](#External-interface-requirements)
-  - [System features](#System-features)
   - [Non functional requirements](#Non-functional-requirements)
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
