@@ -236,43 +236,43 @@ The LTC will have two more users, who will interact with the main users in the c
    
    **Academic user:** 
       
-  Start and end of session.
+  • Start and end of session.
   
-  User and password authentication.
+  • User and password authentication.
   
-  Password restoration.
+  • Password restoration.
   
-  Test realization.
+  • Test realization.
   
-  Results consultation.
+  • Results consultation.
 
    **Administrative user:** 
        
-  Start and end of session.
+  • Start and end of session.
   
-  User and password authentication.
+  • User and password authentication.
   
-  Password restoration.
+  • Password restoration.
   
-  A search engine to filter system information.
+  • A search engine to filter system information.
   
-  Students and groups consultation (profiles and statistics).
+  • Students and groups consultation (profiles and statistics).
   
-  Results consultation.
+  • Results consultation.
   
-  Make changes in the system (welcome message, student channeling, users names, etc.).
+  • Make changes in the system (welcome message, student channeling, users names, etc.).
   
-  Generate reports.
+  • Generate reports.
 
    **External users:** 
    
-  Start and end of session.
+  • Start and end of session.
   
-  User and password authentication.
+  • User and password authentication.
   
-  Password restoration.
+  • Password restoration.
   
-  Results consultation.
+  • Results consultation.
   
   
   ## Non functional requirements
