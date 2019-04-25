@@ -1,3 +1,3 @@
 **CONTENT**
 
-This folder contains the UML Diagrams made in Visual Paradigm.com of the LTC project.
+This folder contains the UML Diagrams of the LTC project that are mnade in https://www.visual-paradigm.com/
