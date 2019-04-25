@@ -205,9 +205,9 @@ The LTC will have two more users, who will interact with the main users in the c
        
        • Group Consultation
 
-       • Create profiles (**ONLY THE SCHOOL PRINCIPAL**)
+       • Create profiles (**Only the school principal**)
        
-       • Ups and downs of academic and external users (**ONLY THE SCHOOL PRINCIPAL**)
+       • Ups and downs of academic and external users (**Only the school principal**)
        
        • Report generator
        
