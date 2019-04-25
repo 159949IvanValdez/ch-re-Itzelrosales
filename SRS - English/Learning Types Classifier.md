@@ -209,6 +209,8 @@ The LTC will have two more users, who will interact with the main users in the c
        
        • Ups and downs of academic and external users (**Only the school principal**)
        
+       • Access Database (**Only the school principal**)
+       
        • Report generator
        
        • Sign off
@@ -223,6 +225,7 @@ The LTC will have two more users, who will interact with the main users in the c
        • Results Consultation
        
        • Sign off
+       
 
   **Log in**
 
@@ -297,10 +300,12 @@ The LTC will have two more users, who will interact with the main users in the c
 
   - Some parts of the system will need maintenance, so the proper functioning of the LTC must be ensured before and after this process.
   
-  ## Additional comments
+ 
+## Additional comments
   
   The requirements can change according to the needs that are presented to the school system of the institution. The LTC system can adapt to them.
   
+
 # Supporting Information
 
   ## Table of Contents and Index
