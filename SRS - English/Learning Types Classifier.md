@@ -21,7 +21,7 @@ This document explains and analyzes the requirements and processes of the projec
  
   ## Definitions, acronymus, and abbreviations
     
-  - LTC: Learning Types Classifier.
+  - LTC: Learning Types Classifier. 
   
   - SRS (Software Requirements Specification): Is a description of a software system to be developed. 
   
