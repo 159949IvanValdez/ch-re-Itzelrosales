@@ -245,8 +245,6 @@ The LTC will have two more users, who will interact with the main users in the c
       
   • Start and end of session.
   
-  • User and password authentication.
-  
   • Password restoration.
   
   • Test realization.
@@ -256,8 +254,6 @@ The LTC will have two more users, who will interact with the main users in the c
    **Administrative user:** 
        
   • Start and end of session.
-  
-  • User and password authentication.
   
   • Password restoration.
   
@@ -274,8 +270,6 @@ The LTC will have two more users, who will interact with the main users in the c
    **External users:** 
    
   • Start and end of session.
-  
-  • User and password authentication.
   
   • Password restoration.
   
