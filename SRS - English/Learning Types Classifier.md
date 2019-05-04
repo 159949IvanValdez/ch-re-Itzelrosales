@@ -5,7 +5,7 @@ This document explains and analyzes the requirements and processes of the projec
 
   ## Purpose
   
-  The purpose of this document is to describe the general functioning of the LTC project, which is defined as a software solution to the problem of classifying the types of learning of children in the basic education degree.
+  The purpose of this document is to describe the general functioning of the LTC project, which is defined as a software solution to the problem of classifying the types of learning of children in the basic education degree. 
 
   This solution will provide greater ease, speed and efficiency to the process of identification of types of learning because with its implementation will be possible to reduce the time, material cost and errors in the process. In addition, the information collected may be easy to access and retrieve for later uses.
 
