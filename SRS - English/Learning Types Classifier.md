@@ -275,6 +275,200 @@ The LTC will have two more users, who will interact with the main users in the c
   
   • Results consultation.
   
+  Then the system functions according to users are represented and described with UML use case diagrams.
+  
+   ### General Use Case 
+   
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/LTC-General%20Use%20Case.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Name: </td><td>Learning Types Classifier (LTC) </td></tr>
+      <tr><td>Author: </td><td>Erika Itzel Rosales Lopez</td></tr>
+      <tr><td>Date: </td><td>04/23/19</td></tr>
+      <tr><td>Brief Description: </td><td>Accounts will be created with restrictions and specific functions for each of the user types.
+The main function of the LTC system will be to classify the type of learning of the student who performs the test, store the results in the school database and be available to consult by the teacher, school principal and parents. </td></tr>
+      <tr><td>Actors: </td><td> School Principal, Teacher, Student, Parent (or guardian). </td></tr>
+      <tr><td>Preconditions: </td><td>Before using the system, the teacher must explain to the student and parents how it works so that both have knowledge of how to use it.</td></tr>
+      <tr><td>Normal Flow: </td><td> <table align = "center">
+    <thead>
+      <tr><td>Student</td><td>Teacher</td><td>School Principal</td><td>Parent</td></tr>
+    </thead>
+    <tbody>
+      <tr><td>3- Take the test.</td><td>2- Explain to the students/parents how the system works.</td><td>1- Create the users accounts.</td><td>4.1- Check his child results.</td></tr>
+      <tr><td>4- Check results.</td><td>5- Check student results and channel the necessary help for him.</td><td>7- Receives and review the general report.</td><td></td></tr>
+      <tr><td></td><td>6 -Generate a general report of results</td><td></td><td></td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table></td></tr>
+      <tr><td>Alternative flow: </td><td> <table align = "center">
+    
+   <thead>
+      <tr><td>Teacher</td></tr>
+    </thead>
+    <tbody>
+      <tr><td>2- If necessary, make a tutorial for the student about the use of the system.</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table></td></tr>
+  <tr><td>Postconditions</td><td>The results are private and the only one who has total access to all the students results is the school principal.</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  
+  ### Specific Use Case - Create Profiles
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPRL1.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Create Profiles</td></tr>
+      <tr><td>Date: </td><td>04/23/19</td></tr>
+      <tr><td>Actors: </td><td> School Principal </td></tr>
+      <tr><td>Purpose: </td><td>Create a profile for each user.</td></tr>
+      <tr><td>Resume/Function: </td><td>Each profile will have a unique username and password for personal and private use.</td></tr>
+      <tr><td>Preconditions: </td><td>Use the name and surname of the person to create the username.</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Access to the personal data of students, parents and teachers to register their user accounts.    2- Use the first and last name to create the username.    3- Create a personal password for each user.</td></tr>
+  <tr><td>Exceptions: </td><td>If there are the same user names, add a number at the end of each one starting with 1, 2, 3 and so on.</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  
+  ### Specific Use Case - Access Database
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPRL2.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Access Database</td></tr>
+      <tr><td>Date: </td><td>04/23/19</td></tr>
+      <tr><td>Actors: </td><td> School Principal </td></tr>
+      <tr><td>Purpose: </td><td>Make changes in the students data of the database.</td></tr>
+      <tr><td>Resume/Function: </td><td>If there are results, personal data or school data that need some modification, the school director is the only one who can access the database and change them according to the case.</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Access to the system with their user.    2- Access to the database.    3- Make changes in the data.    4- Save changes.</td></tr>
+  <tr><td>Exceptions: </td><td>Every change in the database is reflected in the system profiles.</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  
+  ### Specific Use Case - Search
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTRL3.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Search</td></tr>
+      <tr><td>Date: </td><td>04/24/19</td></tr>
+      <tr><td>Actors: </td><td> School Principal and Teacher </td></tr>
+      <tr><td>Purpose: </td><td>Perform searches in the system and filter information.</td></tr>
+      <tr><td>Resume/Function: </td><td>The actors of administrative type (teacher and school principal) can carry out searches by name of student or username, by results, by type of learning or by group to more easily access the information of the students profiles.</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Access to the system with their user.    2- Click to search.    3- Make a search by username, results, learning type, etc.    4- Access to information.</td></tr>
+  <tr><td>Exceptions: </td><td>The information in the search box must be well written, otherwise if it does not match, it will show "no results".</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+    
+  ### Specific Use Case - Generate Reports
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTRL4.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Generate Reports</td></tr>
+      <tr><td>Date: </td><td>04/24/19</td></tr>
+      <tr><td>Actors: </td><td> School Principal and Teacher </td></tr>
+      <tr><td>Purpose: </td><td>Generate general reports about the results of the students, either individual or group.</td></tr>
+      <tr><td>Resume/Function: </td><td>The actors of administrative type (teacher and school principal) can generate individual or group reports, which include personal data of the students and their results.</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Access to the system with their user.    2- Click to generate reports.    3- Choose individual or group report.    4- Write the student's name or grade and group as the case may be.    5- Access information.    6- Print or exit.</td></tr>
+  <tr><td>Exceptions: </td><td>The information in the text box must be well written, otherwise if it does not match, it will show "no results found".</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+      
+  ### Specific Use Case - Results Consultation
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTSP5.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Results Consultation</td></tr>
+      <tr><td>Date: </td><td>04/24/19</td></tr>
+      <tr><td>Actors: </td><td> School Principal, Teacher, Parents and Student. </td></tr>
+      <tr><td>Purpose: </td><td>Consult the results by group, student or learning type. </td></tr>
+      <tr><td>Resume/Function: </td><td>The administrative actors (teachers and school principal) can consult results by student or group while the external (parents) and academics (students) can only access the results of the student in question. All this users also can access the information of each type of learning.</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Access to the system with their user.    2- Click to Results Consultation.    3- Choose individual or group, or learning types(information of each one) option.    4- Write the student's name or grade and group as the case may be.    5- Access information.    6- Exit. </td></tr>
+  <tr><td>Exceptions: </td><td>The information in the text box must be well written, otherwise if it does not match, it will show "no results found".</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+        
+  ### Specific Use Case - Log In / Log Out
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTSP6.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Log In / Log Out</td></tr>
+      <tr><td>Date: </td><td>04/24/19</td></tr>
+      <tr><td>Actors: </td><td> School Principal, Teacher, Parents and Student. </td></tr>
+      <tr><td>Purpose: </td><td>Log in/out user and recover passwords. </td></tr>
+      <tr><td>Resume/Function: </td><td>Users can start or close session and each account will have its own functions according to the type of user that it is (administrative, external, academic).</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Write their username.    2- Write the correct password.    3- Click on the option to login.    5- Give use to the system.    4- Click on the option to log out.</td></tr>
+  <tr><td>Exceptions: </td><td>The information in the text box must be well written, otherwise if it does not, it will show "incorrect username or incorrect password". If the user does not remember the password of his account, it is possible to recover it by clicking on the option "recover password" and the system will send an email to the administrator with his request.</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+          
+  ### Specific Use Case - Take Test
+  
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20S6.png" height=100% width=100%></img></p>
+   
+   <table>
+    <caption></caption>
+    <thead>
+    </thead>
+    <tbody>
+      <tr><td>Use Case: </td><td>Take Test</td></tr>
+      <tr><td>Date: </td><td>04/24/19</td></tr>
+      <tr><td>Actors: </td><td> Student. </td></tr>
+      <tr><td>Purpose: </td><td>Classify your learning style based on the response of your preferences.</td></tr>
+      <tr><td>Resume/Function: </td><td>Answer the test questions to classify his learning type and obtain a result.</td></tr>
+      <tr><td>Normal Flow: </td><td>1- Write their username.    2- Write the correct password.    3- Click on the option to login.    5- Click on the option Take Test.    4- Answer the questions.    5- Save answers or Finish Test.    6- Obtain a result.    7- Log out.</td></tr>
+  <tr><td>Exceptions: </td><td>The information in the text box must be well written, otherwise if it does not, it will show "incorrect username or incorrect password". If the answers are not saved, finish the test and inform the teacher to carry out the test again.</td></tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
   
   ## Non functional requirements
   
