@@ -388,7 +388,7 @@ The main function of the LTC system will be to classify the type of learning of 
     
   ### Specific Use Case - Generate Reports
   
-   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTRL4.png" height=100% width=100%></img></p>
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTRL4.png" height=90% width=90%></img></p>
    
    <table>
     <caption></caption>
@@ -430,7 +430,7 @@ The main function of the LTC system will be to classify the type of learning of 
         
   ### Specific Use Case - Log In / Log Out
   
-   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTSP6.png" height=100% width=100%></img></p>
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20SPTSP6.png" height=90% width=90%></img></p>
    
    <table>
     <caption></caption>
@@ -451,7 +451,7 @@ The main function of the LTC system will be to classify the type of learning of 
           
   ### Specific Use Case - Take Test
   
-   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20S6.png" height=100% width=100%></img></p>
+   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/LTC%20-%20UML%20Use%20Cases/UML%20-%20S6.png" height=95% width=95%></img></p>
    
    <table>
     <caption></caption>
