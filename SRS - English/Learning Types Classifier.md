@@ -1,3 +1,24 @@
+  ## Table of Contents and Index
+ - [Table of contents and index](#Table-of-contents-and-index)
+- [Introduction](#Introduction)
+  - [Purpose](#Purpose)
+  - [Scope](#Scope)
+  - [Definitions, acronymus, and abbreviations](#Definitions,-acronymus,-and-abbreviations)
+  - [References](#References)
+  - [Overview](#Overview)
+- [Overall Description](#Overall-Description)
+  - [Product Perspective](#Product-Perspective)
+  - [Product Functions](#Product-Functions)
+  - [User Characteristics](#User-Characteristics)
+  - [Contraints](#Constraints)
+  - [Assumptions and dependencies](#Assumptions-and-dependencies)
+- [Specific requirements](#Specific-requirements)
+  - [Functional Requirements](#Functional-Requirements)
+  - [External interface requirements](#External-interface-requirements)
+  - [Non functional requirements](#Non-functional-requirements)
+  - [Additional comments](#Additional-comments)
+- [Supporting Information](#Supporting-Information)
+  - [Appendixes](#Appendixes)
 
 # Introduction
 
@@ -496,26 +517,91 @@ The main function of the LTC system will be to classify the type of learning of 
 
 # Supporting Information
 
-  ## Table of Contents and Index
-- [Introduction](#Introduction)
-  - [Purpose](#Purpose)
-  - [Scope](#Scope)
-  - [Definitions, acronymus, and abbreviations](#Definitions,-acronymus,-and-abbreviations)
-  - [References](#References)
-  - [Overview](#Overview)
-- [Overall Description](#Overall-Description)
-  - [Product Perspective](#Product-Perspective)
-  - [Product Functions](#Product-Functions)
-  - [User Characteristics](#User-Characteristics)
-  - [Contraints](#Constraints)
-  - [Assumptions and dependencies](#Assumptions-and-dependencies)
-- [Specific requirements](#Specific-requirements)
-  - [Functional Requirements](#Functional-Requirements)
-  - [External interface requirements](#External-interface-requirements)
-  - [Non functional requirements](#Non-functional-requirements)
-  - [Additional comments](#Additional-comments)
-- [Supporting Information](#Supporting-Information)
-  - [Table of contents and index](#Table-of-contents-and-index)
-  - [Appendixes](#Appendixes)
- 
  ## Appendixes
+ 
+  ### Elicitation Process
+  
+This process was carried out through a conversation-interview, that was held with the administrative staff of Plan de Iguala Elementary School to identify what were their needs and wishes regarding the construction of the LTC system.
+
+**Interview-Conversation about the steps of the process in question.**
+
+Since the main problem that solves this project is the classification of the children's learning styles, the teacher was contacted first, because he is the one in charge of this process during the first classes of the school year.
+
+The teacher Erika Lopez was asked to describe the classification process step by step and then the pros and cons of it. 
+This is what she said:
+
+   *« First, it is explained to the student that there are different types of learning and 
+    that each one has specific characteristics and tasks that benefit them better 
+    depending on the type that is.*
+
+   *Then, the student is given a questionnaire previously made and reviewed by the SEP, which 
+    contains multiple choice questions related to preferences in different aspects of daily life.*
+
+   *During the application of the questionnaire, if any student has any questions he can 
+    ask me what he wants. At the end of the questionnaire, they give it to me to review 
+    and classify them myself.*
+
+   *The revision process is simple because it is of multiple choice, the tedious is the time 
+    it takes to review 30 to 35 questionnaires one by one.*
+
+   *After having reviewed them all, I must classify the students according to their 
+    learning style, register them in an excel table and finally add the questionnaire 
+    to the student's file in case we wish to consult it someday.*
+
+   *With the results registered in the excel table, I have to submit a general group report 
+    to the school principal including the tables, conclusions and statistics of the types 
+    of learning identified within my group.*
+
+   *At the end of the process, it only remains to adjust the activities of my school planning 
+    to benefit each and every one of the students in their learning process and to avoid 
+    desertion within the group.*
+
+   *A process of two or three days does not seem very long, however in the educational field it is, 
+    because the estimated time to cover all the subjects of a school year is just and adding 
+    extra processes makes it slow. »*
+    
+Then, the school principal Brenda Magallanes was also contacted and I asked to her to describe the process that follows the classification and delivery of the report. This is what she said:
+    
+  *« When the professor gives me the report, I read it, I check it, I stamp it and send it to SEECh to be filed.*
+
+  *After this process, at each parent meeting I join the teachers to recommend activities that benefit the learning of each of the          students and I talk to them about the supports to which the students have access, for example: mathematics, special education,          advanced, etc.* 
+
+  *If during the school year there are highs and lows of students I have to register that and update their school file, which contains      personal documents, papers, questionnaires made to the student, etc. »*
+
+**Conversation about requirements for the LTC System**
+    
+*« We look for the system to help us to make the process of classification and generation of reports faster, also that is understandable for the students, with an educational and formal aspect and a welcome message.*
+
+*It must include the official questions sent by the SEP from SEECh, have multiple options as in the written questionnaires.
+We would also like it to be available to parents in case they ever wanted to make inquiries or follow up on the cases of the students, however, that would be all they had access to.*
+
+*It should also provide a function of information about the types of learning so that within the community of parents they know the different types that exist and how to help the students with each one.*
+
+*Instead of managing written files and recording them on paper, it would be very useful to connect to our school database, so we would better track each student's history.*
+
+*It is essential that students can be made high or low to keep the file updated and in this way generate reports in a correct and formal manner. »*
+
+**Conclusion**
+
+After these conversations, I was able to identify the requirements of the project, which are listed below:
+
+  - **Educational aspect:** soft colors, pleasing to the eye, no fluorescent colors.
+
+  - **Understandable:** Without ambiguity in the texts, correctly written words, without complexity in the vocabulary.
+
+  - **Quick system:** Content that occupies little memory to be effective and efficient.
+
+  - **Content:** That includes the questionnaire made by the SEP, multiple choice questions. With a welcome message for the user.
+
+  -	Being a data storage system, it must be connected to the school database of the primary school and have personal user accounts.
+
+  -	**Functions:** 
+    
+      * *For the student:* Take test and consult results. 
+    
+      * *For the parents:* Consult results and information about the types of learning.
+    
+      * *For the teacher and school principal:* High and low students, creation of profiles, results consultation, report generator, access to    the database for modifications.
+
+  - **Main specific functions:** Classify the type of learning based on the answers of the students in the test, store the results in the student's profile and be available for consultation at any time, generate group or individual reports, which include the results of the students, statistics and recommendations of activities.
+
