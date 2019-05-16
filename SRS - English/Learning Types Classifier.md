@@ -34,6 +34,8 @@
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
   - [Appendixes](#Appendixes)
+    -[Elicitation Process](#Elicitation-Process)
+    -[Business Process Diagram and Description](#Business-Process-Diagram-and-Description)
 
 # Introduction
 
@@ -649,3 +651,55 @@ After these conversations, I was able to identify the requirements of the projec
 
   - **Main specific functions:** Classify the type of learning based on the answers of the students in the test, store the results in the student's profile and be available for consultation at any time, generate group or individual reports, which include the results of the students, statistics and recommendations of activities.
 
+
+  ### Business Process Management Diagram and Description
+
+  This diagram is based on the process of classification of learning styles, described by the administrative actors of the project during the requirements elicitation process.
+  
+  See the original project for a better appreciation of the BPM Diagram: https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/LTC%20-%20BPM%20DIAGRAM.vpp
+  **General BPM Diagram**
+  
+  <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/Business%20Process%20Diagram.jpg" height=100% width=100%></img></p>
+  
+  **Subprocess #1 - Create the student profile in the LTC System**
+ 
+  <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/Create%20the%20student%20profile%20in%20the%20LTC%20Sytem..jpg" height=100% width=100%></img></p>
+ 
+  **Subprocess #2 - Log in**
+  
+  <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/Log%20in.jpg" height=100% width=100%></img></p>
+  
+  **Subprocess #3 - Take Test**
+  
+  <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/Take%20Test.jpg" height=100% width=100%></img></p>
+  
+  **Description of the BPM Diagram**
+  
+  The process begins with the parents because they present the application for the registration of the students and they deliver the corresponding documents to the school principal.
+
+Afterwards, the school principal reviews the documentation; if it is not complete, he returns the documents to the parent and asks for the rest of them. In this way, the cycle returns to the beginning, where another application for registration is presented and so on.
+
+However, if it is complete, the school principal receives the documents and the registration fee. During this step, a bill or receipt is given to the parent.
+
+The registration process usually lasts 3 to 5 business days, depending on the available space during that time.
+Once that term is over, the school director proceeds to enroll each student, recording a file of each one.
+
+Once he has enrolled all the students, continues to register all the users in the LTC system and that's where a subprocess begins:
+
+To register them, it is necessary to first create an account for each one, then give them a username and finally a password (both personal).
+
+The subprocess ends and the next step is for the teacher to explain to the students and parents how to use the LTC system.
+Once they know how the LTC works, the students proceed to use the system. It is necessary to log in, so it displays another more subprocess:
+
+This consists of correctly typing the user name, followed by the correct password and finally clicking on login.
+With the session started, the student can already take the test. This is the last subprocess:
+
+The student must answer the questions by selecting one of the multiple options, when he finish answering them all, he can save the answers, either to answer the test at another time or to end it, and finally, click on finish test.
+Once the test is finished, the student clicks on log out.
+
+In the next step, the teacher monitors the results of each student and then generates a general report, which is delivered to the school principal.
+
+The school principal reviews and corrects the report and sends it to SEECh.
+
+Finally SEECh, includes the report in a database of the SEP and that's all. The process ends.
+  
