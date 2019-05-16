@@ -34,8 +34,8 @@
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
   - [Appendixes](#Appendixes)
-    -[Elicitation Process](#Elicitation-Process)
-    -[Business Process Diagram and Description](#Business-Process-Diagram-and-Description)
+  -[Elicitation Process](#Elicitation-Process)
+  -[Business Process Diagram and Description](#Business-Process-Diagram-and-Description)
 
 # Introduction
 
