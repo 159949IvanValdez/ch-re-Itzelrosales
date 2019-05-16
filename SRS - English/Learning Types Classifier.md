@@ -29,13 +29,13 @@
   - [System requirements](#System-requirements)
   - [External interface requirements](#External-interface-requirements)
   - [Functional Requirements](#Functional-Requirements)
-      -[UML-Use Cases](#UML-Use-Cases)
+    -[UML-Use Cases](#UML-Use-Cases)
   - [Non functional requirements](#Non-functional-requirements)
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
   - [Appendixes](#Appendixes)
-      -[Elicitation Process](#Elicitation-Process)
-      -[Business Process Diagram and Description](#Business-Process-Diagram-and-Description)
+    -[Elicitation Process](#Elicitation-Process)
+    -[Business Process Diagram and Description](#Business-Process-Diagram-and-Description)
 
 # Introduction
 
@@ -657,6 +657,7 @@ After these conversations, I was able to identify the requirements of the projec
   This diagram is based on the process of classification of learning styles, described by the administrative actors of the project during the requirements elicitation process.
   
   See the original project for a better appreciation of the BPM Diagram: https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/LTC%20-%20BPM%20DIAGRAM.vpp
+  
   **General BPM Diagram**
   
   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/BPM-Files/Business%20Process%20Diagram.jpg" height=100% width=100%></img></p>
