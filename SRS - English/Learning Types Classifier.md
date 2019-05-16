@@ -11,7 +11,7 @@
   <h3 align="center">May 2019</h3>
   
   ## Table of Contents and Index
- - [Table of contents and index](#Table-of-contents-and-index)
+- [Table of contents and index](#Table-of-contents-and-index)
 - [Introduction](#Introduction)
   - [Purpose](#Purpose)
   - [Scope](#Scope)
@@ -56,38 +56,26 @@ This document explains and analyzes the requirements and processes of the projec
  
  
   ## Definitions, acronymus, and abbreviations
-    
-  - LTC: Learning Types Classifier. 
   
-  - SRS (Software Requirements Specification): Is a description of a software system to be developed. 
-  
-  - Database: Organized collection of data.
-  
-  - Data: Is information that has been translated into a form that is efficient for movement or processing.
-  
-  - User: Is any individual who is not involved with supporting or developing a computer or service.
-  
-  - Requirement: Is a specification of a need or want.
-  
-  - Project: Is an undertaking with specific start and end parameters designed to produce a defined outcome, such as implementing a new computer system.
-  
-  - Process: Is a series of steps and decisions involved in the way work is completed. 
-  
-  - System: Is a collection of elements or components that are organized for a common purpose.
-  
-  - Data exchange protocols: Is a support manual intended to guide the consistent implementation of the Data Exchange Framework. 
-  
-  - Interface: Is a shared boundary across which two or more separate components of a computer system exchange information.
-  
-  - Stability: The quality, state, or degree of being stable.
-  
-  - Availability: Refers to the ability of a user to access information or resources in a specified location and in the correct format.
-  
-  - Efficiency: Signifies a level of performance that describes using the least amount of input to achieve the highest amount of output.
-  
-  - Computer crimes: Is an act performed by a knowledgeable computer user, sometimes referred to as a hacker that illegally browses or steals a company's or individual's private information.
-  
-  
+  | **Concept**| **Meaning**|
+| ------------- |:-------------:| 
+| LTC| Learning Types Classifier.|
+| SRS| (Software Requirements Specification): Is a description of a software system to be developed.|
+| Database| Organized collection of data.|
+| Data| Is information that has been translated into a form that is efficient for movement or processing.|
+| User| Is any individual who is not involved with supporting or developing a computer or service.|
+| Requirement| Is a specification of a need or want.|
+| Project| Is an undertaking with specific start and end parameters designed to produce a defined outcome, such as implementing a new computer system.|
+| Process| Is a series of steps and decisions involved in the way work is completed.|
+| System| Is a collection of elements or components that are organized for a common purpose.|
+| Data exchange protocols| Is a support manual intended to guide the consistent implementation of the Data Exchange Framework.|
+| Interface| Is a shared boundary across which two or more separate components of a computer system exchange information.|
+| Stability| The quality, state, or degree of being stable.|
+| Availability| Refers to the ability of a user to access information or resources in a specified location and in the correct format.| 
+| Efficiency| Signifies a level of performance that describes using the least amount of input to achieve the highest amount of output.|
+| Computer crime| Is an act performed by a knowledgeable computer user, sometimes referred to as a hacker that illegally browses or steals a company's or individual's private information.| 
+
+
   ## References
   
   https://en.wikipedia.org/wiki/Software_requirements_specification
@@ -149,29 +137,31 @@ This software will also allow the management of student information, in this cas
   
   • Creation of descriptive profiles of each user.
   
-  • Storage of information in an external database. (Can be the institutional database).
+  • Storage of information in an external database. (The institutional database).
   
   • Provide information about the learning styles according to the user's when obtaining a result of the classifier.
+  
+  • Generation of reports on the results obtained.
 
   
   ## User Characteristics
   
   The system will have three types of user: Academic (Students), Administrative(Teachers and School Principal) and External (Parents or Guardians).
-  Of these three types, users are divided into final and potential according to the use they give the system.
+  Of these three types, users are divided into primary and secondary according to the use they give the system.
   
-  The system will have two final users, who will interact with LTC directly.
+  The system will have three primary users, who will interact with LTC directly.
   
-  | Users| Description|
+  | **Users**| **Description**|
 | ------------- |:-------------:| 
 | Student| Is the one who will introduce his data, answers about his preferences and interests and will obtain the appropriate result for him.|
 | Teacher| Will have access to the system to analyze the results of each student and thus channel it to activities that favor their learning.| 
+| School Principal| Will have access to the system to analyze the information together with the teacher, in case there is a need to channel students to some kind of special help. Will also monitoring the results of the system in the school database.| 
 
-The LTC will have two more users, who will interact with the main users in the classification process and with the system only if necessary.
+The LTC will have one secondary user, who will interact with the system only if necessary.
 
-| Users| Description|
+| **Users**| **Description**|
 | ------------- |:-------------:| 
 | Parent or Guardian| Access the LTC to enter data if the student cannot or knows how to operate the system.|
-| School Principal| Will have access to the system to analyze the information together with the teacher, in case there is a need to channel students to some kind of special help. Will also receive the results of the system in the school database.| 
   
   
   ## Constraints
@@ -183,7 +173,7 @@ The LTC will have two more users, who will interact with the main users in the c
 
   ## Assumptions and dependencies
   
-  | Assumptions| Dependencies|
+  | **Assumptions**| **Dependencies**|
 | ------------- |:-------------:| 
 | The LTC system will be a desktop program.| For LTC to work properly, it is required to have mainly Internet connection.|
 | It can be used by different users at the same time but only by sessions.| The teacher and the school principal have knowledge to handle certain types of software.| 
@@ -220,7 +210,11 @@ The LTC will have two more users, who will interact with the main users in the c
    
    - The system must analyze the student's responses and classify their type of learning as auditory, visual or kinesthetic, as the case may be.
   
-   - 
+   - The test results can be consulted per student or group.
+   
+   - The generated reports can be made per student or per group.
+   
+   - The school database should store all student records, including personal data, educational history and test results.
    
   
   ## External interface requirements
@@ -341,6 +335,14 @@ The LTC will have two more users, who will interact with the main users in the c
   Then the system functions according to users are represented and described with UML use case diagrams.
   
   ## UML-Use Cases
+  
+  **NOTE:** The color of the actors in these diagrams only serves to differentiate them by their type:
+  
+  - Red: Administratives (School principal and Teacher).
+  
+  - Blue: Academics (Students).
+  
+  - Yellow: External (Parents).
   
    ### General Use Case 
    
