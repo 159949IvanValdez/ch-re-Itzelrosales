@@ -25,8 +25,10 @@
   - [Contraints](#Constraints)
   - [Assumptions and dependencies](#Assumptions-and-dependencies)
 - [Specific requirements](#Specific-requirements)
-  - [Functional Requirements](#Functional-Requirements)
+  - [User requirements](#User-requirements)
+  - [System requirements](#System-requirements)
   - [External interface requirements](#External-interface-requirements)
+  - [Functional Requirements](#Functional-Requirements)
   - [Non functional requirements](#Non-functional-requirements)
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
@@ -190,12 +192,39 @@ The LTC will have two more users, who will interact with the main users in the c
   
   In this section, each of the requirements and specifications of the LTC system are described in more detail.
   
+  ## User requirements
+  
+  - The system must have an educational and formal appearance.
+  
+  - The system must allow the registration of user accounts for the school principal and for each student, parent and teacher.
+  
+  - The system must to help to make the process of classification and generation of reports faster.
+  
+  - The system must include the official questions sent by the SEP from SEECh, have multiple options as in the written questionnaires.
+  
+  - The system must also provide a function of information about the types of learning.
+  
+  - The system must be connected to our school database to facilitate the monitoring of the history of each student.
+  
+  - The system must allow highs and lows of students, but only managed by the school principal.
+  
+  
+  ## System requirements
+  
+   - **Appearence** Use the school logo, appropriate fonts and vocabulary, must to have two themes (light and dark) and include a welcome message for system users that can include images.
+   
+   - The administrator of the system (school principal) must be the only one who can make the user registers and the additions and deletions of the students, as well as the modifications in the database.
+   
+   - When answering the test, the system must allow to choose as answer only one of the 4 options of the question.
+   
+   - The system must analyze the student's responses and classify their type of learning as auditory, visual or kinesthetic, as the case may be.
+  
+   - 
+   
   
   ## External interface requirements
   
-  - The graphical interface with which the end user interacts must be intuitive, such that without a user manual, any type of user can identify and use the system functions.
-  
-  - It must include a telephone number for user support, in this case the administration number (school principal). Where they help to solve doubts and fix problems.
+  - The graphical interface with which the end user interacts must be intuitive, any type of user should identify and use the system functions.
   
   - It should have two themes (light and dark) with nice colors in sight so that the user can work with the system comfortably.
   
@@ -507,13 +536,11 @@ The main function of the LTC system will be to classify the type of learning of 
   
   - The most important requirement that the LTC system must have is stability, that is, ensuring the integrity of the data that is entered into it.
 
-  - That the program has availability to access it at any time that the user wants.
+  - That the program has availability to access.
 
   - The documentation of the project must be sufficient to solve doubts about the use of the system but not so extensive so that it is easy to understand.
 
-  - The LTC must be efficient in any computer equipment (fast or slow).
-
-  - It must be safe to protect the personal data of the users and not use them for their criminal purposes (computer crimes).
+  - The system must be safe to protect the personal data of the users and prevent the risks of use for criminal purposes (computer crimes).
 
   - It must include user support, a phone number to contact the system administrator in case a user has a problem.
 
