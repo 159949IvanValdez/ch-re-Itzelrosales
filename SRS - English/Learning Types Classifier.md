@@ -29,6 +29,7 @@
   - [System requirements](#System-requirements)
   - [External interface requirements](#External-interface-requirements)
   - [Functional Requirements](#Functional-Requirements)
+    -[UML-Use Cases](#UML-Use-Cases)
   - [Non functional requirements](#Non-functional-requirements)
   - [Additional comments](#Additional-comments)
 - [Supporting Information](#Supporting-Information)
@@ -338,6 +339,8 @@ The LTC will have two more users, who will interact with the main users in the c
   • Results consultation.
   
   Then the system functions according to users are represented and described with UML use case diagrams.
+  
+  ## UML-Use Cases
   
    ### General Use Case 
    
