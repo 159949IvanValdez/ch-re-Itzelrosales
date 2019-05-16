@@ -1,5 +1,5 @@
   
-  <h3 align="center"> Universidad Autónoma de Ciudad Juarez</h3>
+  <h3 align="center"> Universidad Autónoma de Ciudad Juárez</h3>
   <h3 align="center"> División Multidisciplinaria de Ciudad Universitaria </h3>
   <h3 align="center"> Departamento de Ingeniería Electricidad y Computación </h3>
   <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-Itzelrosales/blob/master/SRS%20-%20English/Images/LOGO%20UACJ.png" height="260" width="260"></img></p>
